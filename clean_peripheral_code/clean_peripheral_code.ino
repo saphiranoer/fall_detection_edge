@@ -1,8 +1,6 @@
 /*
  * Device: Arduino Nano 33 BLE Sense
  * Peripheral
- * The values of the integrated temperature sensor and 
- * accelerometer are sent using BLE.
  */
 
 #include <ArduinoBLE.h>
