@@ -11,7 +11,8 @@ URL to the NUMPY array format of UniMIB SHAR dataset: https://www.kaggle.com/dat
 
 The "Prepocess" folder contains the code to transform the .npy file nto CSVs should you intend to train your own model with CSVs. The naming of each CSV files are already set inside the python code (<Class>.<Sub-array_index>_<Segment_index>.csv) following edge impulse's CSV naming convention (<Label_name>.<identification_number>.csv). You can modify the naming to fit your needs.
 
-To use the central device's code, add the edge impulse library (ei-fall-detection-edge-arduino-1.0.18.ei) in Arduino IDE.
+The "Arduino" folder contains the code for central/edge and peripheral/wearable devices. saphira18 is the central code, accPeripheral2 is the peripheral code.
+To use the central device's code, add the edge impulse library (ei-fall-detection-edge-arduino-1.0.18.ei) in Arduino IDE. The central device has to be connected to the laptop and opened in the serial monitor for it to work.
 
 The program waCode.py is used to interact with WhatsApp by opening it in either command prompt or idle (python IDE) after the central/edge code is uploaded into the arduino. CLOSE THE CENTRAL/EDGE'S SERIAL MONITOR IN THE ARDUINO IDE, and then run waCode.py.
 
