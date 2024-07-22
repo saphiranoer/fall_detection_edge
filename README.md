@@ -9,7 +9,7 @@ The devices communicate with BLE, thus:
 
 URL to the NUMPY array format of UniMIB SHAR dataset: https://www.kaggle.com/datasets/alirezacman/unimib-shar (the original dataset is in matlab file format) 
 
-The "Prepocess" folder contains the code to transform the .npy file nto CSVs should you intend to train your own model with CSVs. The naming of each CSV files are already set inside the python code (<Class>.<Sub-array_index>_<Segment_index>.csv) following edge impulse's CSV naming convention (<Label_name>.<ID>.csv). You can modify the naming to fit your needs.
+The "Prepocess" folder contains the code to transform the .npy file nto CSVs should you intend to train your own model with CSVs. The naming of each CSV files are already set inside the python code (<Class>.<Sub-array_index>_<Segment_index>.csv) following edge impulse's CSV naming convention (<Label_name>.<identification_number>.csv). You can modify the naming to fit your needs.
 
 To use the central device's code, add the edge impulse library (ei-fall-detection-edge-arduino-1.0.18.ei) in Arduino IDE.
 
