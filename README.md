@@ -1,3 +1,4 @@
+# fall_detection_edge
 A fall detection system utilizing edge computing, BLE, and edge impulse 
 
 The dataset is trained on edge impulse and the model is deployed into the edge device (an arduino nano 33 ble sense) that is connected to a laptop via USB. When a fall is detected by the edge arduino, the laptop's serial monitor will detect this and deploy a whatsapp message to a chosen recipient about the fall event. There is only 1 wearable device in this project.
