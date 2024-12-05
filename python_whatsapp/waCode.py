@@ -26,10 +26,10 @@ try:
             # Send the message
             pw.sendwhatmsg(phone_number, message, now.hour, now.minute + 1)
 
-            time.sleep(10)
-            pyautogui.click()
-            time.sleep(10)
-            pyautogui.press('enter')
+            # time.sleep(10)
+            # pyautogui.click()
+            # time.sleep(10)
+            # pyautogui.press('enter')
 
 except KeyboardInterrupt:
     # Ctrl+C was pressed, stop the loop
