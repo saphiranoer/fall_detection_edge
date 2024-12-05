@@ -24,7 +24,7 @@ try:
             message = "Jatuh terdeteksi pada pukul {}:{}.".format(now.hour, now.minute)
 
             # Send the message
-            pw.sendwhatmsg(phone_number, message, now.hour, now.minute + 1)
+            pw.sendwhatmsg(phone_number, message, now.hour, now.minute)
 
             # time.sleep(10)
             # pyautogui.click()
